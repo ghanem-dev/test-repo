@@ -1,17 +1,3 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyAReSJycYUkdyo1h4cLjMYPP7PDaQgqnSM",
-  authDomain: "agrovoltaics-dashboard.firebaseapp.com",
-  databaseURL: "https://agrovoltaics-dashboard-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "agrovoltaics-dashboard",
-  storageBucket: "agrovoltaics-dashboard.appspot.com",
-  messagingSenderId: "995470038751",
-  appId: "1:995470038751:web:7764884301d48ea42cfb6a",
-  measurementId: "G-74PCF59CEX"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
 $(document).ready(function(){
     var database = firebase.database();
 	var Led1Status;
