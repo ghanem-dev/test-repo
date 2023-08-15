@@ -1,15 +1,16 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyD4r9IZ4nDeFWVTv4W52nB_13l1YC6d7fc",
-    authDomain: "toggle-button-3d8fe.firebaseapp.com",
-    databaseURL: "https://toggle-button-3d8fe-default-rtdb.firebaseio.com",
-    projectId: "toggle-button-3d8fe",
-    storageBucket: "toggle-button-3d8fe.appspot.com",
-    messagingSenderId: "807063547069",
-    appId: "1:807063547069:web:0ca44bccf198b408de1bd4",
-    measurementId: "G-7Q81S5145B"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+const firebaseConfig = {
+  apiKey: "AIzaSyAReSJycYUkdyo1h4cLjMYPP7PDaQgqnSM",
+  authDomain: "agrovoltaics-dashboard.firebaseapp.com",
+  databaseURL: "https://agrovoltaics-dashboard-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "agrovoltaics-dashboard",
+  storageBucket: "agrovoltaics-dashboard.appspot.com",
+  messagingSenderId: "995470038751",
+  appId: "1:995470038751:web:7764884301d48ea42cfb6a",
+  measurementId: "G-74PCF59CEX"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 $(document).ready(function(){
     var database = firebase.database();
